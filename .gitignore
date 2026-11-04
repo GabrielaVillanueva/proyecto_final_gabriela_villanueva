@@ -1,2 +1,13 @@
 # Archivos temporales de Word
 ~$*
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Credenciales locales: nunca subir
+.env

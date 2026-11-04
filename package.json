@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final-gabriela-villanueva",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas con Playwright del TPV Minimarket",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project=chromium",
+    "test:login": "playwright test login --project=chromium --reporter=list",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6"
+  }
+}
