@@ -1,0 +1,18 @@
+{
+  "product": "Inca Kola 1.5L",
+  "stock": "80",
+  "accepted": [
+    { "id": "CP-01", "description": "valor dentro del rango", "quantity": "10", "subtotal": "S/ 65.00" },
+    { "id": "CP-04", "description": "límite inferior", "quantity": "1", "subtotal": "S/ 6.50" },
+    { "id": "CP-05", "description": "encima del mínimo", "quantity": "2", "subtotal": "S/ 13.00" },
+    { "id": "CP-06", "description": "debajo del máximo", "quantity": "79", "subtotal": "S/ 513.50" },
+    { "id": "CP-07", "description": "igual al stock", "quantity": "80", "subtotal": "S/ 520.00" }
+  ],
+  "rejected": [
+    { "id": "CP-02", "description": "cero", "quantity": "0", "defect": "POR REGISTRAR" },
+    { "id": "CP-03", "description": "negativo", "quantity": "-1", "defect": "POR REGISTRAR" },
+    { "id": "CP-08", "description": "stock + 1", "quantity": "81", "defect": "DEF-01" },
+    { "id": "CP-09", "description": "stock + 2", "quantity": "82", "defect": "DEF-01" },
+    { "id": "CP-14", "description": "valor muy grande", "quantity": "999999999", "defect": "DEF-01" }
+  ]
+}
